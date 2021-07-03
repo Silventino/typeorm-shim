@@ -1,6 +1,6 @@
 {
   "name": "typeorm",
-  "version": "1.0.0",
+  "version": "0.2.34",
   "description": "typeorm shim so I don't have to use paths on CRA",
   "main": "index.js",
   "scripts": {
