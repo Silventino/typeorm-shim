@@ -1,164 +1,40 @@
-export declare function Entity(x?: any, y?: (x: any) => any): ClassDecorator;
-export declare function Column(x?: any, y?: (x: any) => any): PropertyDecorator;
-export declare function ViewColumn(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function DeleteDateColumn(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function CreateDateColumn(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function ObjectIdColumn(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function PrimaryColumn(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function PrimaryGeneratedColumn(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function UpdateDateColumn(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function VersionColumn(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function AfterInsert(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function AfterLoad(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function AfterRemove(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function AfterUpdate(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function BeforeInsert(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function BeforeRemove(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function BeforeUpdate(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function EventSubscriber(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function JoinColumn(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function JoinTable(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function ManyToMany(
-  x?: any,
-  y?: any,
-  z?: any
-): PropertyDecorator;
-export declare function ManyToOne(x?: any, y?: any, z?: any): PropertyDecorator;
-export declare function OneToMany(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function OneToOne(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function RelationCount(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function RelationId(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function ChildEntity(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function ViewEntity(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function TableInheritance(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
+export declare function Entity(...args: any): ClassDecorator;
+export declare function Column(...args: any): PropertyDecorator;
+export declare function ViewColumn(...args: any): PropertyDecorator;
+export declare function DeleteDateColumn(...args: any): PropertyDecorator;
+export declare function CreateDateColumn(...args: any): PropertyDecorator;
+export declare function ObjectIdColumn(...args: any): PropertyDecorator;
+export declare function PrimaryColumn(...args: any): PropertyDecorator;
+export declare function PrimaryGeneratedColumn(...args: any): PropertyDecorator;
+export declare function UpdateDateColumn(...args: any): PropertyDecorator;
+export declare function VersionColumn(...args: any): PropertyDecorator;
+export declare function AfterInsert(...args: any): PropertyDecorator;
+export declare function AfterLoad(...args: any): PropertyDecorator;
+export declare function AfterRemove(...args: any): PropertyDecorator;
+export declare function AfterUpdate(...args: any): PropertyDecorator;
+export declare function BeforeInsert(...args: any): PropertyDecorator;
+export declare function BeforeRemove(...args: any): PropertyDecorator;
+export declare function BeforeUpdate(...args: any): PropertyDecorator;
+export declare function EventSubscriber(...args: any): PropertyDecorator;
+export declare function JoinColumn(...args: any): PropertyDecorator;
+export declare function JoinTable(...args: any): PropertyDecorator;
+export declare function ManyToMany(...args: any): PropertyDecorator;
+export declare function ManyToOne(...args:any): PropertyDecorator;
+export declare function OneToMany(...args: any): PropertyDecorator;
+export declare function OneToOne(...args: any): PropertyDecorator;
+export declare function RelationCount(...args: any): PropertyDecorator;
+export declare function RelationId(...args: any): PropertyDecorator;
+export declare function ChildEntity(...args: any): PropertyDecorator;
+export declare function ViewEntity(...args: any): PropertyDecorator;
+export declare function TableInheritance(...args: any): PropertyDecorator;
 
-export declare function Tree(x?: any, y?: (x: any) => any): PropertyDecorator;
-export declare function TreeChildren(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function TreeChildrenCount(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function TreeLevelColumn(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function TreeParent(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function Generated(
-  x?: any,
-  y?: (x: any) => any,
-  z?: any
-): PropertyDecorator;
-export declare function Index(x?: any, y?: (x: any) => any): PropertyDecorator;
+export declare function Tree(...args: any): PropertyDecorator;
+export declare function TreeChildren(...args: any): PropertyDecorator;
+export declare function TreeChildrenCount(...args: any): PropertyDecorator;
+export declare function TreeLevelColumn(...args: any): PropertyDecorator;
+export declare function TreeParent(...args: any): PropertyDecorator;
+export declare function Generated(...args: any): PropertyDecorator;
+export declare function Index(...args: any): PropertyDecorator;
 
 //////////////////////////////////////////////////////////////////////
 
@@ -283,10 +159,10 @@ export interface JoinOptions {
   };
 }
 
-import { EntityFieldsNames } from "../common/EntityFieldsNames";
-import { JoinOptions } from "./JoinOptions";
-import { ObjectLiteral } from "../common/ObjectLiteral";
-import { FindConditions } from "./FindConditions";
+// import { EntityFieldsNames } from "../common/EntityFieldsNames";
+// import { JoinOptions } from "./JoinOptions";
+// import { ObjectLiteral } from "../common/ObjectLiteral";
+// import { FindConditions } from "./FindConditions";
 /**
  * Defines a special criteria to find specific entity.
  */
@@ -300,7 +176,7 @@ export interface FindOneOptions<Entity = any> {
   relations?: string[];
   join?: JoinOptions;
   order?: {
-    [P in EntityFieldsNames<Entity>]?: "ASC" | "DESC" | 1 | -1;
+    [P in keyof Entity]?: "ASC" | "DESC" | 1 | -1;
   };
   cache?:
     | boolean
