@@ -1,4 +1,5 @@
 export declare function Entity(...args: any): ClassDecorator;
+export declare function ViewEntity(...args: any): ClassDecorator;
 export declare function Column(...args: any): PropertyDecorator;
 export declare function ViewColumn(...args: any): PropertyDecorator;
 export declare function DeleteDateColumn(...args: any): PropertyDecorator;
@@ -25,7 +26,6 @@ export declare function OneToOne(...args: any): PropertyDecorator;
 export declare function RelationCount(...args: any): PropertyDecorator;
 export declare function RelationId(...args: any): PropertyDecorator;
 export declare function ChildEntity(...args: any): PropertyDecorator;
-export declare function ViewEntity(...args: any): PropertyDecorator;
 export declare function TableInheritance(...args: any): PropertyDecorator;
 
 export declare function Tree(...args: any): PropertyDecorator;
