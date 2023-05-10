@@ -20,7 +20,7 @@ export declare function EventSubscriber(...args: any): PropertyDecorator;
 export declare function JoinColumn(...args: any): PropertyDecorator;
 export declare function JoinTable(...args: any): PropertyDecorator;
 export declare function ManyToMany(...args: any): PropertyDecorator;
-export declare function ManyToOne(...args:any): PropertyDecorator;
+export declare function ManyToOne(...args: any): PropertyDecorator;
 export declare function OneToMany(...args: any): PropertyDecorator;
 export declare function OneToOne(...args: any): PropertyDecorator;
 export declare function RelationCount(...args: any): PropertyDecorator;
@@ -215,3 +215,7 @@ export interface FindManyOptions<Entity = any> extends FindOneOptions<Entity> {
   skip?: number;
   take?: number;
 }
+
+export type FindOptionsWhere<Entity> = {
+  [P in keyof Entity]?: P extends "toString" ? unknown : any;
+};

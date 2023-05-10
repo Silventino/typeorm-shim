@@ -70,12 +70,12 @@ exports.Column = Column;
 exports.ViewColumn = ViewColumn;
 
 /* export */ function DeleteDateColumn(options) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.DeleteDateColumn = DeleteDateColumn;
 
 /* export */ function CreateDateColumn(options) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.CreateDateColumn = CreateDateColumn;
 
@@ -86,76 +86,76 @@ function ObjectIdColumn(typeOrOptions, options) {
 exports.ObjectIdColumn = ObjectIdColumn;
 
 /* export */ function PrimaryColumn(typeOrOptions, options) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.PrimaryColumn = PrimaryColumn;
 
 /* export */ function PrimaryGeneratedColumn(options) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.PrimaryGeneratedColumn = PrimaryGeneratedColumn;
 
 /* export */ function UpdateDateColumn(options) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.UpdateDateColumn = UpdateDateColumn;
 
 /* export */ function VersionColumn(options) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.VersionColumn = VersionColumn;
 
 // listeners
 
 /* export */ function AfterInsert() {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.AfterInsert = AfterInsert;
 
 /* export */ function AfterLoad() {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.AfterLoad = AfterLoad;
 
 /* export */ function AfterRemove() {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.AfterRemove = AfterRemove;
 
 /* export */ function AfterUpdate() {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.AfterUpdate = AfterUpdate;
 
 /* export */ function BeforeInsert() {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.BeforeInsert = BeforeInsert;
 
 /* export */ function BeforeRemove() {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.BeforeRemove = BeforeRemove;
 
 /* export */ function BeforeUpdate() {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.BeforeUpdate = BeforeUpdate;
 
 /* export */ function EventSubscriber() {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.EventSubscriber = EventSubscriber;
 
 // relations
 
 /* export */ function JoinColumn(options) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.JoinColumn = JoinColumn;
 
 /* export */ function JoinTable(options) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.JoinTable = JoinTable;
 
@@ -180,41 +180,41 @@ exports.OneToMany = OneToMany;
 exports.OneToOne = OneToOne;
 
 /* export */ function RelationCount(relation) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.RelationCount = RelationCount;
 
 /* export */ function RelationId(relation) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.RelationId = RelationId;
 
 // entities
 
 /* export */ function ChildEntity(tableName, options) {
-  return function (object) {};
+  return function (object) { };
 }
 exports.ChildEntity = ChildEntity;
 
 /* export */ function Entity(name, options) {
-  return function (object) {};
+  return function (object) { };
 }
 exports.Entity = Entity;
 
 /* export */ function ViewEntity(options) {
-  return function (object) {};
+  return function (object) { };
 }
 exports.ViewEntity = ViewEntity;
 
 /* export */ function TableInheritance(type) {
-  return function (object) {};
+  return function (object) { };
 }
 exports.TableInheritance = TableInheritance;
 
 // tree
 
 /* export */ function Tree(name, options) {
-  return function (object) {};
+  return function (object) { };
 }
 exports.Tree = Tree;
 
@@ -229,7 +229,7 @@ exports.TreeChildren = TreeChildren;
 exports.TreeChildrenCount = TreeChildrenCount;
 
 /* export */ function TreeLevelColumn() {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.TreeLevelColumn = TreeLevelColumn;
 
@@ -241,11 +241,12 @@ exports.TreeParent = TreeParent;
 // other
 
 /* export */ function Generated(options) {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.Generated = Generated;
 
 /* export */ function Index() {
-  return function (object, propertyName) {};
+  return function (object, propertyName) { };
 }
 exports.Index = Index;
+
